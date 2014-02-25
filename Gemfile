@@ -8,6 +8,7 @@ gem 'rails', '3.2.16'
 gem 'sqlite3'
 gem "thin", "~> 1.6.1"
 gem "faye", "~> 1.0.1"
+gem 'private_pub', :git => 'git://github.com/ryanb/private_pub.git'
 
 
 # Gems used only for assets and not required
