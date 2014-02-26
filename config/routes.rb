@@ -1,6 +1,6 @@
 Chat::Application.routes.draw do
   
-
+  root :to => "sessions#new"
   get  '/login' => 'sessions#new', :as => :login
   post '/login' => 'sessions#create', :as => :login
   get  '/chatroom' => 'chats#room', :as => :chat

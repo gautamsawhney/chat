@@ -6,4 +6,6 @@ class SessionsController < ApplicationController
     session[:username] = params[:username]
     redirect_to chat_path
   end
+
+  
 end
