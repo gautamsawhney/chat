@@ -12,3 +12,8 @@
  6) Start the Thin server -->  rackup faye.ru -E production -s thin
 
  7) Start the Rails server
+
+ 8) To send a private message use -->  @user_name message
+
+ 9) All messages send with specifying the user would be public and visible to all the users connected to the     
+    channel.
