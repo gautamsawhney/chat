@@ -15,5 +15,8 @@
 
  8) To send a private message use -->  @user_name message
 
- 9) All messages send with specifying the user would be public and visible to all the users connected to the     
-    channel.
+ 9) All messages sent without specifying the user would be public and visible to all the users connected to 
+    to the channel.
+
+10) Open 2 different browsers or if using chrome an incognito window to see the exchange of messages between
+    the users.
