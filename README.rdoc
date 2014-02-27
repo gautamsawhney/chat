@@ -7,8 +7,8 @@
 
  4) Run the migrations.
 
- 5) Install thin -- gem install thin
+ 5) Install thin -->  gem install thin
 
- 6) Start the Thin server -- rackup faye.ru -E production -s thin
+ 6) Start the Thin server -->  rackup faye.ru -E production -s thin
 
  7) Start the Rails server

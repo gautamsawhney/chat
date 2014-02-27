@@ -6,6 +6,7 @@ Chat::Application.routes.draw do
   get  '/chatroom' => 'chats#room', :as => :chat
   post '/new_message' => 'chats#new_message', :as => :new_message
 
+  post '/logout' => 'sessions#destroy', :as => :logout
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

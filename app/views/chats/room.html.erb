@@ -11,6 +11,10 @@
   });
 </script>
 
+ <div align="right"><%= form_tag logout_path do %>
+   <%= submit_tag "Logout" %>
+   <% end %></div>
+
 <div class="chat_container">
   <div id="chat_room">
     <p class="alert"> Welcome to the chat room <%= session[:username] %>! </p>
